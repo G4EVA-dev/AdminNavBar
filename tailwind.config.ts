@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        navBarFocus: "#FDD4B7",
+        navbarTextFocus: "rgba(249, 115, 22, 1)",
+        svgColor:"#555555",
+      }
     },
   },
   plugins: [],
