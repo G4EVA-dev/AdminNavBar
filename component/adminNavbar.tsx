@@ -26,8 +26,8 @@ const AdminNavbar = () => {
   ];
 
   return (
-    <div className="w-auto h-screen bg-gray-200 text-svgColor fixed">
-      <ul className="p-5 w-64">
+    <div className="w-auto h-screen text-svgColor fixed">
+      <ul className="">
         {menuItems.map((item) => (
           <li
             key={item.path}
